@@ -5,4 +5,5 @@ tell application "System Events"
 		set newremin to make new reminder
 		set name of newremin to reminTitle
 	end tell
+	display notification "Added a reminder to: " & reminTitle with title "Reminder Added"
 end tell
