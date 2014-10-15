@@ -4,6 +4,7 @@ end tell
 set UrlGoto to text returned of result --Variable for what to search for.
 tell application "Safari"
 	search the web for UrlGoto --This is where it searches the web for UrlGoto
+	activate
 end tell
 tell application "System Events"
 	display notification "Searching for " & UrlGoto with title "Web Search" --Notification with a title of "Web Search" and a text of "Searching for "what was returned in UrlGoto."
