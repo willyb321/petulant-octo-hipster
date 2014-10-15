@@ -1,0 +1,8 @@
+tell application "System Events"
+	display dialog "Create a new reminder" default answer "" cancel button "Cancel"
+	set reminTitle to text returned of result
+	tell application "Reminders"
+		set newremin to make new reminder
+		set name of newremin to reminTitle
+	end tell
+end tell
