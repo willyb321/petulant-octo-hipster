@@ -35,6 +35,11 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+hr{
+  width:100vw;
+  justify-content:center;
+  position:absolute;
+}
 ol, ul {
   list-style: none;
 }
