@@ -34,12 +34,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-
-hr{
-  width:100vw;
-  justify-content:center;
-  position:absolute;
-}
 ol, ul {
   list-style: none;
 }
@@ -52,6 +46,11 @@ table {
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
+pre{
+  max-height:100px;
+  overflow:auto;
+}
+
 head {
   a:link {
     color:white
