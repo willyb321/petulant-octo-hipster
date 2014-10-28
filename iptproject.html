@@ -80,8 +80,19 @@ window.confirm("Are you sure?");
 {
 window.confirm("Are you sure?");
 };
-</script></br></br><hr></br>
-
+</script></br>
+<p><strong>How to display date and time with a button in Javascript</strong></p></br>
+<pre>
+&lt;button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()"&gt;
+Click me to display Date and Time.&lt;/button&gt;
+&lt;p id="demo"&gt;&lt;/p&gt;
+</pre>
+<p><strong>Example:</strong></p></br>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
         <!-- main section div--></div>
     <!-- main section--></section>
 
