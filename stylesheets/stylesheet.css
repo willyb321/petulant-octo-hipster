@@ -54,9 +54,11 @@ pre{
 head {
   a:link {
     color:white
+    }
   }
+header a{
+  color:white;
 }
-
 body {
   box-sizing: border-box;
   color:#373737;
@@ -65,7 +67,8 @@ body {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-}
+  }
+
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
@@ -397,6 +400,7 @@ Small Device Styles
 
   #project_title {
   font-size: 32px;
+  color:white;
   }
 
   h1 {
