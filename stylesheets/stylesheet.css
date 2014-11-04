@@ -47,8 +47,9 @@ table {
 Theme Styles
 *******************************************************************************/
 pre{
-  max-height:110px;
-  overflow:auto;
+height:150px;
+overflow:auto;
+max-height:150px;
 }
 
 head {
